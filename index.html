@@ -1,143 +1,188 @@
-
 <!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
 <head>
-	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Foundation 4</title>
-
-  
-  <link rel="stylesheet" href="stylesheets/app.css">
-  
-
-  <script src="javascripts/vendor/custom.modernizr.js"></script>
-
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Foundation 4</title>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/app.css" />
+	<link rel="stylesheet" href="css/build.css" />
+	<script src="js/vendor/custom.modernizr.js"></script>
 </head>
+
 <body>
-
-	<div class="row">
-		<div class="large-12 columns">
-			<h2>Welcome to Foundation</h2>
-			<p>This is version 4.3.2.</p>
-			<hr />
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="large-8 columns">
-			<h3>The Grid</h3>
-
-			<!-- Grid Example -->
-			<div class="row">
-				<div class="large-12 columns">
-					<div class="panel">
-						<p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
+<!-- Main body -->
+<div id="head">
+	<header>
+		<div class="row">
+			<div class="small-12 large-6 columns">
+				<div class="logo orange">
+					<h1>Alpha Consulting</h1>
+					<span class="tagline small">Specialistul juridic si contabil</span>
 				</div>
 			</div>
 
-			<h3>Buttons</h3>
-
-      <div class="row">
-        <div class="large-6 columns">
-          <p><a href="#" class="small button">Small Button</a></p>
-          <p><a href="#" class="button">Medium Button</a></p>
-          <p><a href="#" class="large button">Large Button</a></p>
-        </div>
-        <div class="large-6 columns">
-          <p><a href="#" class="small alert button">Small Alert Button</a></p>
-          <p><a href="#" class="success button">Medium Success Button</a></p>
-          <p><a href="#" class="large secondary button">Large Secondary Button</a></p>
-        </div>
-      </div>
+			<div class="large-6 columns hide-for-small">
+			<div class="aditional-info small right">
+				<span class="telephone oj">+40.741901518</span>
+				<span class="email oj">hello@specialistultau.ro</span>
+			</div>
+			</div>
 		</div>
 
-		<div class="large-4 columns">
-			<h4>Getting Started</h4>
-			<p>We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
+		<div class="row">
+			<div class="small-12 large-12">
+				
 
-			<h4>Other Resources</h4>
-			<p>Once you've exhausted the fun in this document, you should check out:</p>
-			<ul class="disc">
-				<li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
-				<li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
-				<li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
+          <nav class="top-bar">
+            <ul class="title-area">
+              <!-- Title Area -->
+              <li class="name">
+                
+              </li>
+              <li class="toggle-topbar menu-icon"><a href="#"><span>MENIU</span></a></li>
+            </ul>
+         
+            <section class="top-bar-section">
+              <!-- Right Nav Section -->
+              <ul class="left">
+                <li class="">
+                  <a href="#">Acasa</a>
+                </li>
+               	<li><a href="#">Despre noi</a></li>
+                <li class="has-dropdown"><a href="#">Domenii de expertiza</a>
+					<ul class="dropdown">
+						<li><a href="#">Asistenta si reprezentare juridica</a></li>
+						<li><a href="#">Expertiza contabila</a></li>
+						<li><a href="#">Autorizari comerciale</a></li>
+						<li><a href="#">Infiintari societati si asociatii</a></li>
+						<li><a href="#">Resurse umane</a></li>
+						<li><a href="#">Mediere</a></li>
+						<li><a href="#">Servicii cadastru</a></li>
+					</ul>
+                </li>
+                <li class="divider"></li>
+                <li><a href="#">Preturi</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </section>
+          </nav>
+
+				<!-- <nav class="top-bar">
+					<ul class="title-area">
+						
+						<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+					</ul>
+
+					<section class="top-bar-section">
+					
+					<ul class="left">
+					 	<li class="active"><a href="#">Acasa</a></li>
+					  	<li><a href="#">Despre noi</a></li>
+					  	<li class="has-dropdown"><a href="#">Domenii de expertiza</a>
+					        <ul class="dropdown">
+								<li><a href="#">Asistenta si reprezentare juridica</a></li>
+								<li><a href="#">Expertiza contabila</a></li>
+								<li><a href="#">Autorizari comerciale</a></li>
+								<li><a href="#">Infiintari societati si asociatii</a></li>
+								<li><a href="#">Resurse umane</a></li>
+								<li><a href="#">Mediere</a></li>
+								<li><a href="#">Servicii cadastru</a></li>
+					        </ul>
+					  	</li>
+					  	<li><a href="">Preturi</a></li>
+					  	<li><a href="">Contact</a></li>
+					</ul>
+					</section>
+				</nav> -->
+
+			</div>
+		</div>
+
+	</header>
+
+	<div class="main">
+		
+			<ul data-orbit>
+				<li>
+					<img src="http://lorempixel.com/1600/520/" />
+					<div class="orbit-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+				</li>
+
+				<li>
+					<img src="http://lorempixel.com/1600/520/" />
+					<div class="orbit-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+				</li>
+
+				<li>
+					<img src="http://lorempixel.com/1600/520/" />
+					<div class="orbit-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+				</li>
 			</ul>
-		</div>
+
 	</div>
 
-  <script>
+
+<!-- End Main body -->
+
+
+<!-- Foundation JS include -->
+
+	  <script>
   document.write('<script src=' +
-  ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
   '.js><\/script>')
   </script>
-  
-  <script src="javascripts/foundation/foundation.js"></script>
+
+  	<script src="js/foundation/foundation.js"></script>
 	
-	<script src="javascripts/foundation/foundation.abide.js"></script>
+  	<script src="js/foundation/app.js"></script>
 	
-	<script src="javascripts/foundation/foundation.alerts.js"></script>
+	<script src="js/foundation/foundation.dropdown.js"></script>
 	
-	<script src="javascripts/foundation/foundation.clearing.js"></script>
+	<script src="js/foundation/foundation.cookie.js"></script>
 	
-	<script src="javascripts/foundation/foundation.cookie.js"></script>
+	<script src="js/foundation/foundation.reveal.js"></script>
 	
-	<script src="javascripts/foundation/foundation.dropdown.js"></script>
+	<script src="js/foundation/foundation.section.js"></script>
 	
-	<script src="javascripts/foundation/foundation.forms.js"></script>
+	<script src="js/foundation/foundation.orbit.js"></script>
 	
-	<script src="javascripts/foundation/foundation.interchange.js"></script>
+	<script src="js/foundation/foundation.tooltips.js"></script>
 	
-	<script src="javascripts/foundation/foundation.joyride.js"></script>
+	<script src="js/foundation/foundation.placeholder.js"></script>
 	
-	<script src="javascripts/foundation/foundation.magellan.js"></script>
+	<script src="js/foundation/foundation.joyride.js"></script>
 	
-	<script src="javascripts/foundation/foundation.orbit.js"></script>
+	<script src="js/foundation/foundation.forms.js"></script>
 	
-	<script src="javascripts/foundation/foundation.placeholder.js"></script>
+	<script src="js/foundation/foundation.clearing.js"></script>
 	
-	<script src="javascripts/foundation/foundation.reveal.js"></script>
+	<script src="js/foundation/foundation.topbar.js"></script>
 	
-	<script src="javascripts/foundation/foundation.section.js"></script>
+	<script src="js/foundation/foundation.alerts.js"></script>
 	
-	<script src="javascripts/foundation/foundation.tooltips.js"></script>
-	
-	<script src="javascripts/foundation/foundation.topbar.js"></script>
-	
-  
-  <script>
-    $(document).foundation();
-  </script>
+	<script src="js/foundation/foundation.magellan.js"></script>
+	<script>
+		$(document).foundation();
+	</script>
 </body>
 </html>
